@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
 
+`git add .`
 `git stash`
 `git checkout chapter-#{ARGV.first}`
